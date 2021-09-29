@@ -10,7 +10,6 @@ O teste foi separado em etapas, então, sinta-se à vontade para fazer até onde
 
 
 ## Componentes
----
 
 Abaixo temos uma lista de elementos que são utilizados no desafio com algumas propriedades. Que tal começar pensando em criar elementos reutilizáveis?
 
@@ -28,7 +27,6 @@ Componentes aplicando UI:
 Aqui fornecemos um wireframe de baixa fidelidade e um arquivo [Adobe XD com um design básico dos componentes](assets/test-fe-semantix.xd).
 
 ## User Stories Mínimos e Wireframe
----
 
 Abaixo temos alguns User Stories simplificados mínimos. Considere a ordem abaixo como as etapas. Acreditamos que é melhor 1 etapa bem feita do que várias medianas ou incompletas.
 
@@ -46,7 +44,6 @@ Abaixo temos alguns User Stories simplificados mínimos. Considere a ordem abaix
 
 
 ## User Stories Bônus
----
 
 Estes User Stories não são obrigatórios, mas seria interessante discutir o desenvolvimento deles com você.
 
@@ -59,7 +56,6 @@ Estes User Stories não são obrigatórios, mas seria interessante discutir o de
 <img src="assets/4-apagar-ideia.png" alt="alt text" width="80%"  />
 
 ## O que vamos analisar
----
 ### Itens principais
 - qualidade do código
 - estruturação do projeto
@@ -73,6 +69,5 @@ Estes User Stories não são obrigatórios, mas seria interessante discutir o de
 - user stories 4 e 5
 
 ## Submissão
----
 
 Envie um email para andre.ravazzi[at]semantix.com.br com o link para um repositório público do Github com a solução do desafio. No título do email coloque "{Seu nome} - Code Challenge Front-end"
