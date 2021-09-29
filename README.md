@@ -1,91 +1,78 @@
 # Frontend Code Challenge
 
+Sua tarefa é construir um front-end para a aplicação AITR (Awesome ideas to remember). A aplicação é um simples repositório de ideias com título, descrição e algumas tags.
+
+O front-end deve ser construído utilizando qualquer framework JavaScript de sua preferência (React, Vue.js, Angular, Svelte, etc...) e seguindo os wireframes apresentados abaixo.
+
+O teste foi separado em etapas, então, sinta-se à vontade para fazer até onde der.
+
+> 📙 Importante ressaltar que esse teste é qualitativo e não quantitativo, vamos levar em consideração a qualidade do código e não o número de etapas concluídas.
 
 
-## Getting started
+## Componentes
+---
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+Abaixo temos uma lista de elementos que são utilizados no desafio com algumas propriedades. Que tal começar pensando em criar elementos reutilizáveis?
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Componentes do wireframe:
 
-## Add your files
+<img src="assets/componentes.png" alt="alt text" width="80%"  />
 
-- [ ] [Create](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Componentes aplicando UI:
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/Semantix/OpenGalaxy/v2/code-challenges/frontend-code-challenge.git
-git branch -M main
-git push -uf origin main
-```
+<img src="assets/test-fe-semantix.png" alt="alt text" width="80%"  />
 
-## Integrate with your tools
 
-- [ ] [Set up project integrations](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/integrations/)
+## Layout e Estrutura
 
-## Collaborate with your team
+Aqui fornecemos um wireframe de baixa fidelidade e um arquivo [Adobe XD com um design básico dos componentes](assets/test-fe-semantix.xd).
 
-- [ ] [Invite team members and collaborators](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Automatically merge when pipeline succeeds](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+## User Stories Mínimos e Wireframe
+---
 
-## Test and Deploy
+Abaixo temos alguns User Stories simplificados mínimos. Considere a ordem abaixo como as etapas. Acreditamos que é melhor 1 etapa bem feita do que várias medianas ou incompletas.
 
-Use the built-in continuous integration in GitLab.
+1. O usuário poderá ver a lista de ideias cadastradas
 
-- [ ] [Get started with GitLab CI/CD](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://docs.gitlab.com/ee/user/clusters/agent/)
+<img src="assets/1-dash.png" alt="alt text" width="80%"  />
 
-***
+2. O usuário poderá adicionar uma nova ideia
 
-# Editing this README
+<img src="assets/2-nova-ideia.png" alt="alt text" width="80%"  />
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://gitlab.com/-/experiment/new_project_readme_content:dc6f12045bc95a25b68d1dab5d164caa?https://www.makeareadme.com/) for this template.
+3. O usuário poderá filtrar as ideias por termos globais ou somente por tag
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+<img src="assets/5-filtrar-ideia.png" alt="alt text" width="80%"  />
 
-## Name
-Choose a self-explaining name for your project.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+## User Stories Bônus
+---
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+Estes User Stories não são obrigatórios, mas seria interessante discutir o desenvolvimento deles com você.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+4. O usuário poderá editar uma nova ideia
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+<img src="assets/3-editar-ideia.png" alt="alt text" width="80%"  />
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+5. O usuário poderá deletar uma nova ideia
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+<img src="assets/4-apagar-ideia.png" alt="alt text" width="80%"  />
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## O que vamos analisar
+---
+### Itens principais
+- qualidade do código
+- estruturação do projeto
+- quais ferramentas utilizadas e o porquê
+- documentação (que tal um README.md explicando como rodar o projeto e o processo de desenvolvimento?)
+- acessibilidade (dá uma olhada aqui: https://developer.mozilla.org/pt-BR/docs/Web/Accessibility/ARIA)
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+### Bonus:
+- testes automatizados
+- conteinerização da aplicação
+- user stories 4 e 5
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## Submissão
+---
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
-
+Envie um email para andre.ravazzi[at]semantix.com.br com o link para um repositório público do Github com a solução do desafio. No título do email coloque "{Seu nome} - Code Challenge Front-end"
